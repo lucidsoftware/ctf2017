@@ -1,0 +1,50 @@
+<!Doctype HTML>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="Lottery.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ </head>
+<body>
+
+  <div ng-app="LotteryApp">
+
+      <div ng-controller="LotteryController" class="container">
+        <h1> PowerBall </h1>
+          <!--Angular Preachers will you forgive me?-->
+      <div class="container">
+
+        <div class= "row">
+          <input type="text" ng-model="balls[0]">
+
+          <input type="text" ng-model="balls[1]">
+
+          <input type="text" ng-model="balls[2]">
+
+          <input type="text" ng-model="balls[3]">
+
+          <input type="text" ng-model="balls[4]">
+
+          <input type="text" ng-model="balls[5]">
+          </div>
+        </div>
+      <div class="container">
+
+        <div class= "row">
+          <button ng-click = "makeGuess()">Give Me Money</button>
+          <p>Make a Guess</p>
+
+        </div>
+        <div class= "row">
+        <button ng-click = "">Restart</button>
+                  <p>Start a new round with brand new Powerballs</p>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Instructions</h1>
+        <p>
+        Start the game, and make a guess to get the million dollars, hopefully your lucky.
+        first 5 balls are from 1-69, last ball is the powerball selected from 1-26
+        these balls are selected with replacement, so 2 2 27 45 60 25 is a valid sequence.
+      </p></div>
+  </div>
+</body>
