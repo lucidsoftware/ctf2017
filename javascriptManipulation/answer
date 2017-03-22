@@ -1,0 +1,3 @@
+POST to /chatty/chat.php endpoint with 'readflag' in the body and a session cookie by:
+* console
+* curl
