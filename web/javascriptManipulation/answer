@@ -1,3 +1,5 @@
 POST to /chatty/chat.php endpoint with 'readflag' in the body and a session cookie by:
 * console
 * curl
+
+Flag: vxEwJ8WtPLEp5SNsdcrFP8U+YRYW8!
