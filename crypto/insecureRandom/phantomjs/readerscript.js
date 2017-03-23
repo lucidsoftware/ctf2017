@@ -13,7 +13,7 @@ function openMockPage(webPage){
   var page = require('webpage').create()
   phantom.addCookie({
     'name'     : 'CookieMonstersFlag',
-    'value'    : 'CookieMonster`s flag is 1234567890',
+    'value'    : 'CookieMonster`s flag is 756810156477128637',
     'domain'   : 'ec2-34-207-121-76.compute-1.amazonaws.com',
     'path'     : '/',
     'secure'   : false,
