@@ -14,7 +14,7 @@ function openMockPage(webPage){
   phantom.addCookie({
     'name'     : 'CookieMonstersFlag',
     'value'    : 'CookieMonster`s flag is 1234567890',
-    'domain'   : 'ec2-34-207-121-76.compute-1.amazonaws.com',
+    'domain'   : 'localhost',
     'path'     : '/',
     'secure'   : false,
   });
