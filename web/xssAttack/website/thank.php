@@ -3,7 +3,7 @@
   $userResponse = isset($_POST['value'])? $_POST['value'] : "no Response2";
   
   //loudly sweating
-  $command = "phantomjs /home/ubuntu/xssDummy/readerscript.js http://localhost/survey/adminView.php?value=" . escapeshellarg($userResponse);
+  $command = "export QT_QPA_PLATFORM=offscreen && phantomjs /home/ubuntu/xssDummy/readerscript.js http://localhost/survey/adminView.php?value=" . escapeshellarg($userResponse);
   echo(shell_exec($command)); //praise the swiss army chainsaw of programming
   exit;
 ?>
