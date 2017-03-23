@@ -7,5 +7,3 @@ OUTPUT="$BASESTR$OUTPUT"
 done
 echo $OUTPUT > $1
 
-
-echo "password for telnet is: lewstherin is not hero of ages"
