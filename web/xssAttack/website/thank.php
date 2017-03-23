@@ -4,6 +4,6 @@
   
   //loudly sweating
   $command = "phantomjs /home/ubuntu/xssDummy/readerscript.js http://ec2-34-207-121-76.compute-1.amazonaws.com/survey/adminView.php?value=" . escapeshellarg($userResponse);
-  shell_exec($command); //praise the swiss army chainsaw of programming
+  echo(shell_exec($command)); //praise the swiss army chainsaw of programming
   exit;
 ?>
