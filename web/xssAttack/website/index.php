@@ -14,11 +14,11 @@
         $value = isset($_GET['value']) ? htmlspecialchars($_GET['value']) : "";
       ?>
       <h1>What do you think of <span id ="name"><?php echo($name);?></span> </h1>
-<div class="container">
-      <textarea rows=20 id ="UserResponse" > <?php echo($value);?></textarea>
+      <div class="container">
+        <textarea rows=20 id ="UserResponse" > <?php echo($value);?></textarea>
       </div>
-      <button id = "submitbtn">Send response to the admin</button>
-      <p id="adminthanks"></p>
+        <button id = "submitbtn">Send response to the admin</button>
+        <p id="adminthanks"></p>
       </div>
   </body>
 </html>

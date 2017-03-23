@@ -19,10 +19,9 @@ function openMockPage(webPage){
     'secure'   : false,
   });
   page.onConsoleMessage = function(msg, lineNum, sourceId) {
-    console.log('CONSOLE: ' + msg + ' (from line #' + lineNum + ' in "' + sourceId + '")');
+    console.log(msg);
   };
   page.open(webPage, function(status) {
-    console.log("Status: " + status)
     phantom.exit();
   });
 }

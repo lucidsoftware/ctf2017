@@ -5,7 +5,7 @@
 </head>
 <html>
   <body>
-  <script>console.log('WASSUP');</script>
+  <script> console.log('Thank you for the Response!!'); </script>
       <?php
         $value = isset($_GET['value']) ? $_GET['value'] : "";
       ?>
