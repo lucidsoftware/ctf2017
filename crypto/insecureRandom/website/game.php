@@ -69,8 +69,8 @@ function retrieveBalls($userid, $contactTime){
 }
 
 function checkGuess($guess, $real){
-    sort($guess['white'][$i]);
-    sort($real['white'][$i]);
+    sort($guess['white']);
+    sort($real['white']);
     //ensure both are sorted
     for ($i=0; $i < 5; $i++) { 
         if($guess['white'][$i] != $real['white'][$i])
@@ -118,3 +118,9 @@ else if ($_SERVER['REQUEST_METHOD'] === 'GET'){
 echo $badRequest;
 exit;
 ?>
+
+<!--This File Contians the Logic for the lottery game
+using mt_rand(val1,val2) we generate the userid for each game, and then that userid's corresponding lottery balls,
+
+We ensure that the seed is new every time the user visits the page by using mt_srand() at the top of the request.
+-->

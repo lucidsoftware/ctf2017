@@ -5,6 +5,7 @@
     $scope.expires = 100;
     $scope.userID = null;
     $scope.flag = "Unknown"
+    $scope.won = "Nothing you haven't won"
     $scope.makeGuess = function(){
         $http.post($location.$$absUrl + 'game.php',
             {
@@ -15,6 +16,7 @@
                 userID: $scope.userID
             }).then(function(data){
                 $scope.flag = data.data.flag
+                $scope.won = data.data.flag
                 console.log($scope.flag);
             },function(error){
                 console.log(error);
