@@ -7,7 +7,7 @@
 #define LENGTH 19
 void main() {
     // Output from key ^ RANDOM
-    char const obfuscated[LENGTH] = "\x1e\x01\x03\x07\x0b\x05\x09\x12\x00\x07\x02\x14\x0e\x04\x00\x0f\x1f\x0b\x02";
+    char const obfuscated[LENGTH] = "\x04\x01\x01\x0e\x06\x0f\t\x16\x1d\x1b\x0f\x00\x07\x04\x0b\x10\x16\x0b\r";
     // Random characters
     char const random[LENGTH] = "LDSKJFLEISJFKELISJE";
     char buf[LENGTH];

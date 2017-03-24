@@ -11,3 +11,5 @@ Either reverse engineer the program and realize that there are two strings that 
 OR 
 
 Bruteforce the input
+
+### Password: HERELIESTHEFLAGYEAH
