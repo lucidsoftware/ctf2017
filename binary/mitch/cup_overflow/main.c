@@ -21,6 +21,7 @@ void fillcup(void)
 int main(void)
 {
     printf("Fill up my cup:\n");
+    fflush(stdout);
     fillcup();
     printf("Thanks.\n");
     return 0;
