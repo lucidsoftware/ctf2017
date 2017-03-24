@@ -1,0 +1,7 @@
+THis problem Uses Least Bit stegnagraphy
+
+This can be a bit of a challenge to write by hand so it is highly recommended you download a script or a tool to do t for you
+==> this is the one we used
+    https://github.com/RobinDavid/LSB-Steganography
+
+If you apply an edge filter to the image you can see this hint in by mona lisas left arm
