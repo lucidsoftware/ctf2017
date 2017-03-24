@@ -13,6 +13,7 @@ void main() {
     char buf[LENGTH];
     char xor_buf[LENGTH];
     printf("Give me the password:\n");
+    fflush(stdout);
     if(fgets(buf, sizeof buf, stdin) != NULL) {
         // Calculate user input xor
         for(int i=0; i<LENGTH; ++i) {
