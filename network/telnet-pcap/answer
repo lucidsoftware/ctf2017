@@ -1,1 +1,3 @@
 lewstherin is not hero of ages
+
+This lengthy pcap has some confusing traffic, but if you perform a packet "details" search for "password", you will immediately find a telnet conversation (which is insecure, as hinted by the question title). Following the conversation will allow you to quickly and easily see the password in plaintext, which is the flag.

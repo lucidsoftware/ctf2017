@@ -1,1 +1,4 @@
+Title: Not the Best Encryption
 Obi-Wan Kenobi accidentally uses telnet to remotely login, exposing his secret to all his enemies! The 'wiretaps' of his remote session are available. Find his secret password and you might just be able to find him!
+
+Description: This pcap file contains the flag, which was taken off of a service on port 8123. However, it's encrypted, and you don't have the key.

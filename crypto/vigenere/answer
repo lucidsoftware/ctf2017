@@ -1,4 +1,6 @@
 The Beatles
 
+The name of the challenge is similar to the name of a radio station in Utah Valley long gone (97.5 The Blaze). Identifying that Blaise is mispelled in the title points you towards Blaise Vigenere, inventor of the Vigenere cipher. There is enough text in the sample to perform statistical analysis, find the key length is '5', and then brute-force the key, "Lucid".
+
 here is a good site for calculating the vigenere key:
 https://www.guballa.de/vigenere-solver

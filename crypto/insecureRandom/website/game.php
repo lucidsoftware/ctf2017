@@ -3,7 +3,7 @@
 //generates the correct powerball
 
 function generateUserID(){
-    return mt_rand(1000000,100000000);
+    return mt_rand(1000000,9999999);
 }
 
 function ballSelection($v)
@@ -21,8 +21,11 @@ function generateAllBalls(){
 
 function storeBalls($allballs, $expireTime, $userId){
     $json = file_get_contents('php://input');
-    $link = mysql_connect('127.0.0.1:3306', 'root', 'root');
+echo "before";
+    $link = mysql_connect('localhost', 'lottery', 'password');
+echo "after";
     if (!$link) {
+	echo 'Could not connect: ' . mysql_error();
         die('Could not connect: ' . mysql_error());
     }
     //SQL gods forgive me i know i should make a stored procudure but i am to lazy
@@ -44,7 +47,7 @@ function storeBalls($allballs, $expireTime, $userId){
 
 function retrieveBalls($userid, $contactTime){
     $json = file_get_contents('php://input');
-    $link = mysql_connect('127.0.0.1:3306', 'root', 'root');
+    $link = mysql_connect('localhost', 'lottery', 'password');
     if (!$link) {
         die('Could not connect: ' . mysql_error());
     }
@@ -83,7 +86,8 @@ function checkGuess($guess, $real){
 //Actual Logic
 mt_srand(time()); //cause why not make it easier
 $vals = json_decode(file_get_contents('php://input'),true);
-$contactTime = time() + 300000;
+$timeToGuess = 300000;
+$contactTime = time() + $timeToGuess;
 $flag = "oiuqywerlmkasndfblkasj";
 $badGuess = "incorrect";
 $expiredTime = "Timeup";
@@ -110,9 +114,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 else if ($_SERVER['REQUEST_METHOD'] === 'GET'){
     $userId = generateUserID();
-    echo json_encode(array('userID' => $userId, 'expires' => $contactTime));
     $balls = generateAllBalls();
     storeBalls($balls, $contactTime, $userId);
+    echo json_encode(array('userID' => $userId, 'expires' => $contactTime));
     exit;
 }
 echo $badRequest;
