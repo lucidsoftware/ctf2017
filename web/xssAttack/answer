@@ -1,5 +1,0 @@
-Very simple problem where we give you the console output of the adminvie.pphp
-
-all you need to do is inject <script>console.log(document.cookie)</script>
-
-this is specifically reflected Cross site script attack, where the javascript is not stored inthe server, but is sent in the url
