@@ -1,4 +1,3 @@
-# Network
 ## Not the Best Encryption
 ### When Old-School is Really Not Cool. What were the credentials?
 

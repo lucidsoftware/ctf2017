@@ -1,7 +1,7 @@
-# Binary Challenges
+## Binary Challenges
 
 
-## TODOs
+### TODOs
 
 - Setup linux environment
 - Change flags (from REPLACEWITHREALFLAG -> ???)
@@ -9,15 +9,15 @@
 - Disable some basic execution security features (DEP, ASLR) at a system level
 
 
-### Environment
+#### Environment
 
 - Disable some basic execution security features (DEP, ASLR) at a system level
 - Players by default have the user `player`
 - `player` user has minimal permissions on the system
-- Most challenges have a FLAG.txt 
+- Most challenges have a FLAG.txt
 
 
-### Useful tools for participants 
+#### Useful tools for participants
 
 - https://github.com/pwndbg/pwndbg
 - https://github.com/longld/peda
@@ -29,7 +29,7 @@
 - https://github.com/Gallopsled/pwntools#readme
 
 
-### General Info
+#### General Info
 
 - http://insecure.org/stf/smashstack.html
 - https://www.owasp.org/index.php/Buffer_overflow_attack

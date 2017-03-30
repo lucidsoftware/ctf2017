@@ -1,4 +1,4 @@
-# Everybody Wins
+## Everybody Wins
 
 So this uses an insecure random number generator,
    and does require a few assumptions along the way

@@ -1,4 +1,3 @@
-# Web
 ## An Easy one
 ### Chat away with Chatter and Simply ask for the flag to solve this challenge!
 

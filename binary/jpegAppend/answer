@@ -1,2 +1,0 @@
-FLAG: GHQPFIJEDDDDGGGGGGGGGGGJJJLJKJLNJK
-Description: There is a gzipped flag at the end of the jpeg image. You can find it by analyzing the file with tools for analyzing files (e.g. binwalk). Then, gunzip the file.

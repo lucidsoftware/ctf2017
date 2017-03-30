@@ -1,4 +1,4 @@
-# A Woman With Nothing to Hide
+## A Woman With Nothing to Hide
 
 Mona Lisa's left arm hides a clue. To find it use edge detection, and it reveals "Least Significant Bit". Least Significant Bit Stenography is the method to uncover the flag.
 

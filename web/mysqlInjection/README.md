@@ -1,4 +1,3 @@
-# Web
 ## Hey, Look! I Created a Secure Login.
 ### Daniel's secret flag is stored as an article in the site. Steal Daniel's Flag by logging into his account.
 

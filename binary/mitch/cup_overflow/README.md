@@ -1,4 +1,4 @@
-# Cup Overflow
+## Cup Overflow
 
 ### Solution
 

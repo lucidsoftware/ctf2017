@@ -1,4 +1,3 @@
-# Crypto
 ## For Great Justice
 ### Take Off Every 'Zig'
 

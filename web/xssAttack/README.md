@@ -1,4 +1,4 @@
-# XSS Railroad
+## XSS Railroad
 
 Very simple problem where we give you the console output of the adminview.php
 
