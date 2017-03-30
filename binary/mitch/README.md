@@ -1,14 +1,5 @@
 ## Binary Challenges
 
-
-### TODOs
-
-- Setup linux environment
-- Change flags (from REPLACEWITHREALFLAG -> ???)
-- Test to make sure that the flags can't be accessed by other means
-- Disable some basic execution security features (DEP, ASLR) at a system level
-
-
 #### Environment
 
 - Disable some basic execution security features (DEP, ASLR) at a system level
