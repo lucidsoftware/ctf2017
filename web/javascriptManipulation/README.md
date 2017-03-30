@@ -8,7 +8,4 @@
 5. This can be solved using one of several ways. Open-up developer console for Google chrome or any browser that you currently use. Type a message and press `send`. Note the XHR Request being sent out to the server.
   - right-click on the XHR request and choose `Copy` -> `Copy as cURL`. Now, the clipboard has the XHR request that also contains session keys for authentication. In linux terminal, this curl request can be executed with a minor modification of changing `justkidding` to `readflag`. The server yields the flag.
   - Use debugging mode to edit the Javascript and remove pieces of code that modify the message being sent to server. The flag will be found in server's response, after.
-
-```
-vxEwJ8WtPLEp5SNsdcrFP8U+YRYW8!
-```
+6. The flag is:```vxEwJ8WtPLEp5SNsdcrFP8U+YRYW8!```

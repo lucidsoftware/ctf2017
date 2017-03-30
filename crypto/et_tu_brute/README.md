@@ -1,7 +1,6 @@
 ## Et Tu Brute?
 > Sbjpk pz h nylha wshjl av dvyr. Fvb zovbsk hwwsf.
 
-FLAG:  
 - Caesar cipher is one of the oldest forms of classical ciphers.
 - The quote from Shakespeare's play, "Julius Caesar", further nudges the individual in that direction.
 - There are numerous tools online for automatically deciphering a Caesar cipher, but they generally either rely on:

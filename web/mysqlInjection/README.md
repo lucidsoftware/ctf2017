@@ -18,6 +18,4 @@
  SELECT * FROM `users` WHERE name='$username' AND password='$password'
 ```
 9. Once the correct username is entered, you can login as Daniel and you will be presented with the flag:
-```
-rFEuoS6a8wjNwV4q1kp8
-```
+10. The flag is:```rFEuoS6a8wjNwV4q1kp8```.
